@@ -1,4 +1,4 @@
-(ns {{ project }}.core)
+(ns εδιτ.core)
 
 (defn foo
   "I don't do a whole lot."

@@ -1,5 +1,5 @@
-(ns {{ project }}.core-test
-  (:use [{{ project }}.core])
+(ns εδιτ.core-test
+  (:use [εδιτ.core])
   (:use [midje.sweet]))
 
 (facts "about failing tests"
