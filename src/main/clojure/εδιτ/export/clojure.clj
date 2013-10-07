@@ -61,6 +61,6 @@
              (export {:name "hello" :params [{:name "name"}]
                       :body [[:list 'str "Hello " '(εδιτ.internal/param 0)]]})
              => '(defn hello [name] (str "Hello " name))
-              (export {:name "hello" :params [{:name "name"}]
+             (export {:name "hello" :params [{:name "name"}]
                        :body [[:list 'str "Hello " '(εδιτ.internal/param 0) "!"]]})
              => '(defn hello [name] (str "Hello " name "!"))))
